@@ -1,0 +1,35 @@
+- 추적 파일로 만들기 
+$ git add 파일이름
+
+- 추적 파일 해제 
+$ git rm --cached 파일이름
+
+- git으로 만들기(저장소 잡기(master))
+$ git init
+
+- git 상태 확인
+$ git status
+
+- 변경사항 적기
+$ git commint -m "할말"
+
+- branch 만들기
+$ git branch 파일이름
+
+- branch 전환하기
+$ git checkout 파일이름
+
+- git 병합하기
+$ git merge 파일이름
+
+- git branch 삭제
+$ git branch -d 파일이름
+
+- 원격저장소 추가
+$ git remote add
+
+- 복사해오기(완전한 복사)
+$ git clone 
+
+- 복사해오기(완전한 복사X)
+$ git pull origin master
